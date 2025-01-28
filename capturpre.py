@@ -54,7 +54,7 @@ driver.quit()
 # Si se ha encontrado el precio, publicarlo en WordPress
 if precio_novillitos:
     # Configura tus datos de WordPress
-    url_wp = "https://localhost/carniceriasdigitales/wp-json/wp/v2/posts"  # Cambia la URL por la de tu sitio y el endpoint adecuado
+    url_wp = "https://carniceriasdigitales/wp-json/wp/v2/posts"  # Cambia la URL por la de tu sitio y el endpoint adecuado
     usuario = "Raul"  # Tu nombre de usuario de WordPress
     contrasena_aplicacion = "DGBU nBSw A0Gs XA8T rAsO vio"  # La contraseña de la aplicación que creaste
 
